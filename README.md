@@ -3,7 +3,7 @@
 
 # 桌面環境
 
-KDE
+KDE Plasma 5
 
 # 預裝的軟體
 
