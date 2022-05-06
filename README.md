@@ -9,6 +9,7 @@ KDE Plasma 5
 
 - Fcitx5(RIME)
 - Firefox
+- Telegram Desktop
 - Vim
 - Visual Studio Code
 - Git
