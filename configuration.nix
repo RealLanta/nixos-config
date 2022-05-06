@@ -103,9 +103,13 @@
      git
      neofetch
      htop
-     vscode
-     tdesktop
-     flameshot
+     qv2ray # Qv2ray(R.I.P.)
+     v2ray # Fucking GFW
+     vscode # Visual Studio Code(Unfree software)
+     tdesktop # Telegram Desktop
+     flameshot # Flameshot
+     nur.repos.xddxdd.wine-wechat # Wine WeChat
+     nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
    ];
 
   # Some programs need SUID wrappers, can be configured further or are
