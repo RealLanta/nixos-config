@@ -39,7 +39,7 @@
   programs.steam.enable = true;
   
   # Realtek Wireless Drive
-  boot.extraModulePackages = [ config.boot.kernelPackages.rtl8811au ];
+  boot.extraModulePackages = [ config.boot.kernelPackages.rtl8811cu ];
 
   # Use the grub EFI boot loader
   #boot.loader = {
