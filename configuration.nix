@@ -130,7 +130,6 @@
      vscode # Visual Studio Code(Unfree software)
      tdesktop # Telegram Desktop
      flameshot # Flameshot
-     nur.repos.xddxdd.wine-wechat # Wine WeChat
      nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
    ];
 
