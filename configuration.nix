@@ -42,25 +42,21 @@
   # Realtek Wireless Driver
   boot.extraModulePackages = [ config.boot.kernelPackages.rtl8821cu ];
   
-  # Enable Bluetooth
-  services.blueman.enable = true;
-  hardware.bluetooth.enable = true;
-
   # Use the grub EFI boot loader
-  #boot.loader = {
-  #  efi = {
-  #    canTouchEfiVariables = true;
-  #    efiSysMountPoint = "/boot";
-  #  };
-  #  grub = {
-  #     efiSupport = true;
-  #     device = "nodev";
-  #  };
-  #};
+  boot.loader = {
+    efi = {
+      canTouchEfiVariables = true;
+      efiSysMountPoint = "/boot";
+    };
+    grub = {
+       efiSupport = true;
+       device = "nodev";
+    };
+  };
 
   # Use the systemd-boot EFI boot loader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  #boot.loader.systemd-boot.enable = true;
+  #boot.loader.efi.canTouchEfiVariables = true;
 
   # networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -110,6 +106,9 @@
   sound.enable = true;
   hardware.pulseaudio.enable = true;
 
+  # Bluetooth 
+  hardware.bluetooth.enable = true;
+
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
@@ -129,6 +128,7 @@
      git
      neofetch
      htop
+     bluez
      qv2ray # Qv2ray(R.I.P.)
      v2ray # Fucking GFW
      vscode # Visual Studio Code(Unfree software)
