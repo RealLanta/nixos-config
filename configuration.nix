@@ -39,8 +39,12 @@
   # Steam
   programs.steam.enable = true;
   
-  # Realtek Wireless Drive
+  # Realtek Wireless Driver
   boot.extraModulePackages = [ config.boot.kernelPackages.rtl8821cu ];
+  
+  # Enable Bluetooth
+  services.blueman.enable = true;
+  hardware.bluetooth.enable = true;
 
   # Use the grub EFI boot loader
   #boot.loader = {
