@@ -141,6 +141,9 @@
   # Flatpak
   services.flatpak.enable = true;
 
+  # NTFS 3G
+  boot.supportedFilesystems = [ "ntfs" ];
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
