@@ -19,6 +19,7 @@
     noto-fonts-cjk
     noto-fonts-emoji
     meslo-lgs-nf
+    wqy_zenhei
   ];
   
   # NUR Source
@@ -131,11 +132,13 @@
      flameshot # Flameshot
      appimage-run
      appimagekit
-     wqy_zenhei
      nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
      nur.repos.xddxdd.rime-moegirl
      nur.repos.xddxdd.rime-zhwiki
    ];
+
+  # Flatpak
+  services.flatpak.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
