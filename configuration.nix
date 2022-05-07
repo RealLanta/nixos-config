@@ -84,7 +84,7 @@
       keyMap = "us";
    };
  i18n.inputMethod.enabled = "fcitx5";
- i18n.inputMethod.fcitx5.addons = with pkgs; [ fcitx5-rime ];
+ i18n.inputMethod.fcitx5.addons = with pkgs; [ fcitx5-chinese-addons ];
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
