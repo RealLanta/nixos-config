@@ -129,13 +129,14 @@
      git
      neofetch
      htop
-     bluez
+     obs-studio # OBS Studio
+     bluez # Bluetooth tools
      qv2ray # Qv2ray(R.I.P.)
      v2ray # Fucking GFW
      vscode # Visual Studio Code(Unfree software)
      tdesktop # Telegram Desktop
      flameshot # Flameshot
-     appimage-run
+     appimage-run # Appimage
      appimagekit
      nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
      nur.repos.xddxdd.rime-moegirl
