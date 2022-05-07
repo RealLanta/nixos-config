@@ -9,6 +9,7 @@ KDE Plasma 5
 
 - Fcitx5( `fcitx5-chinese-addons` )
 - Firefox
+- OBS Studio
 - Telegram Desktop
 - Icalingua++
 - Steam
