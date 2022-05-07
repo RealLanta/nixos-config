@@ -20,6 +20,14 @@
     noto-fonts-emoji
     meslo-lgs-nf
   ];
+  
+  # NUR Source
+  nixpkgs.config.packageOverrides = pkgs: {
+  nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+    inherit pkgs;
+   };
+  };  
+  
 
   # Use the grub EFI boot loader
   #boot.loader = {
