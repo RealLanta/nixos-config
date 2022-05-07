@@ -132,7 +132,6 @@
      flameshot # Flameshot
      appimage-run
      appimagekit
-     ntfs3g
      nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
      nur.repos.xddxdd.rime-moegirl
      nur.repos.xddxdd.rime-zhwiki
@@ -141,7 +140,7 @@
   # Flatpak
   services.flatpak.enable = true;
 
-  # NTFS 3G
+  # NTFS
   boot.supportedFilesystems = [ "ntfs" ];
 
   # Some programs need SUID wrappers, can be configured further or are
