@@ -132,6 +132,7 @@
      flameshot # Flameshot
      appimage-run
      appimagekit
+     ntfs3g
      nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
      nur.repos.xddxdd.rime-moegirl
      nur.repos.xddxdd.rime-zhwiki
