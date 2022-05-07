@@ -28,6 +28,8 @@
    };
   };  
   
+  # Realtek Wireless Drive
+  boot.extraModulePackages = with config.boot.kernelPackages; [ rtw89 ];
 
   # Use the grub EFI boot loader
   #boot.loader = {
