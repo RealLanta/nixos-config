@@ -130,6 +130,8 @@
      tdesktop # Telegram Desktop
      flameshot # Flameshot
      nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
+     nur.repos.xddxdd.rime-moegirl
+     nur.repos.xddxdd.rime-zhwiki
    ];
 
   # Some programs need SUID wrappers, can be configured further or are
