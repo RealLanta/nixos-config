@@ -11,7 +11,6 @@ KDE Plasma 5
 - Firefox
 - Telegram Desktop
 - Icalingua++
-- Wine-Wechat
 - Steam
 - Virtual Box
 - Flameshot
