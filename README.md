@@ -7,7 +7,7 @@ KDE Plasma 5
 
 # 預裝的軟體 Software
 
-- Fcitx5(RIME)
+- Fcitx5( `fcitx5-chinese-addons` )
 - Firefox
 - Telegram Desktop
 - Icalingua++
