@@ -130,6 +130,7 @@
      tdesktop # Telegram Desktop
      flameshot # Flameshot
      appimage-run
+     appimagekit
      wqy_zenhei
      nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
      nur.repos.xddxdd.rime-moegirl
