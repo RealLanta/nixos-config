@@ -124,7 +124,6 @@
      git
      neofetch
      htop
-     latte-dock # Dock-style app launcher based on Plasma frameworks
      qv2ray # Qv2ray(R.I.P.)
      v2ray # Fucking GFW
      vscode # Visual Studio Code(Unfree software)
