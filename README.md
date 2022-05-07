@@ -10,6 +10,10 @@ KDE Plasma 5
 - Fcitx5(RIME)
 - Firefox
 - Telegram Desktop
+- Icalingua++
+- Wine-Wechat
+- Steam
+- Virtual Box
 - Flameshot
 - Vim
 - Visual Studio Code
