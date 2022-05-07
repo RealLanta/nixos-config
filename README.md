@@ -19,3 +19,7 @@ KDE Plasma 5
 - Visual Studio Code
 - Git
 - Neofetch
+
+# 預裝的驅動程式
+
+- Realtek Wireless Driver
