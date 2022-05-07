@@ -84,7 +84,7 @@
       keyMap = "us";
    };
  i18n.inputMethod.enabled = "fcitx5";
- i18n.inputMethod.fcitx5.addons = with pkgs; [ fcitx5-chinese-addons nur.repos.xddxdd.rime-moegirl nur.repos.xddxdd.rime-zhwiki ];
+ i18n.inputMethod.fcitx5.addons = with pkgs; [ fcitx5-chinese-addons nur.repos.xddxdd.rime-moegirl nur.repos.xddxdd.rime-zhwiki nur.repos.xddxdd.fcitx5-breeze ];
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
@@ -136,7 +136,6 @@
      vscode # Visual Studio Code(Unfree software)
      tdesktop # Telegram Desktop
      flameshot # Flameshot
-     typora # Typora Markdown Editor
      virt-manager
      nodejs
      nodePackages.npm
