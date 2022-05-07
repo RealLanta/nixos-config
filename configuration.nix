@@ -28,6 +28,16 @@
    };
   };  
   
+  # USTC Source
+  nix.settings.substituters = [ "https://mirrors.ustc.edu.cn/nix-channels/store" ];
+  
+  # Virtual Box
+  virtualisation.virtualbox.host.enable = true;
+  users.extraGroups.vboxusers.members = [ "chitang" ];
+  
+  # Steam
+  programs.steam.enable = true;
+  
   # Realtek Wireless Drive
   boot.extraModulePackages = with config.boot.kernelPackages; [ rtw89 ];
 
@@ -101,7 +111,8 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.chitang = {
      isNormalUser = true;
-     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+     shell = pkgs.zsh; # Use ZSH
+     extraGroups = [ "wheel" "video" ]; # Enable ‘sudo’ for the user.
    };
 
   # List packages installed in system profile. To search, run:
