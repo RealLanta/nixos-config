@@ -29,7 +29,7 @@
   };  
   
   # USTC Source
-  nix.settings.substituters = [ "https://mirrors.ustc.edu.cn/nix-channels/store" ];
+  nix.binaryCaches = [ "https://mirrors.ustc.edu.cn/nix-channels/store" ];
   
   # Virtual Box
   virtualisation.virtualbox.host.enable = true;
