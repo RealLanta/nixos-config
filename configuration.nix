@@ -84,7 +84,7 @@
       keyMap = "us";
    };
  i18n.inputMethod.enabled = "fcitx5";
- i18n.inputMethod.fcitx5.addons = with pkgs; [ fcitx5-chinese-addons ];
+ i18n.inputMethod.fcitx5.addons = with pkgs; [ fcitx5-chinese-addons nur.repos.xddxdd.rime-moegirl nur.repos.xddxdd.rime-zhwiki ];
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
@@ -136,11 +136,10 @@
      vscode # Visual Studio Code(Unfree software)
      tdesktop # Telegram Desktop
      flameshot # Flameshot
-     appimage-run # Appimage
-     appimagekit
+     virt-manager
+     nodejs
+     nodePackages.npm
      nur.repos.linyinfeng.icalingua-plus-plus # Icalingua++(R.I.P. Icalingua)
-     nur.repos.xddxdd.rime-moegirl
-     nur.repos.xddxdd.rime-zhwiki
    ];
 
   # Flatpak
