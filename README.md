@@ -13,6 +13,7 @@ KDE Plasma 5
 - Telegram Desktop
 - Icalingua++
 - Steam
+- Nodejs
 - Bluez
 - Virtual Box
 - Flameshot
