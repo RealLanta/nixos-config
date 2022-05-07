@@ -136,6 +136,7 @@
      vscode # Visual Studio Code(Unfree software)
      tdesktop # Telegram Desktop
      flameshot # Flameshot
+     typora # Typora Markdown Editor
      virt-manager
      nodejs
      nodePackages.npm
