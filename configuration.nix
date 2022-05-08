@@ -129,6 +129,7 @@
      git
      neofetch
      htop
+     vlc # VLC Media Player
      obs-studio # OBS Studio
      bluez # Bluetooth tools
      qv2ray # Qv2ray(R.I.P.)

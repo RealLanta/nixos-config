@@ -14,6 +14,7 @@ KDE Plasma 5
 - Icalingua++
 - Steam
 - Nodejs
+- VLC Media Player
 - Bluez
 - Virtual Box
 - Flameshot
