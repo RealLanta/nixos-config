@@ -25,4 +25,4 @@ KDE Plasma 5
 
 # 預裝的驅動程式 Driver
 
-- Realtek Wireless Driver
+- Realtek 8821CU(8811CU) Wireless Driver
