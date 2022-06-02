@@ -41,7 +41,13 @@
   
   # Realtek Wireless Driver
   boot.extraModulePackages = [ config.boot.kernelPackages.rtl8821cu ];
-  
+ 
+  # AMD Graphics card driver
+  hardware.opengl.extraPackages = [
+  rocm-opencl-icd
+  pkgs.amdvlk
+  ];
+
   # Use the grub EFI boot loader
   boot.loader = {
     efi = {
