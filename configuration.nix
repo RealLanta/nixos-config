@@ -43,10 +43,11 @@
   boot.extraModulePackages = [ config.boot.kernelPackages.rtl8821cu ];
  
   # AMD Graphics card driver
-  hardware.opengl.extraPackages = [
-  rocm-opencl-icd
-  pkgs.amdvlk
-  ];
+  hardware.opengl.extraPackages = with pkgs; [
+   rocm-opencl-icd
+   rocm-opencl-runtime
+   pkgs.amdvlk
+];
 
   # Use the grub EFI boot loader
   boot.loader = {
